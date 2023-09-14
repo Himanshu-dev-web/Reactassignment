@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+
+
+.nav{
+    width: 1440px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.title-part{
+    display: flex;
+    align-items: center;
+    width: 90%;  
+    justify-content:space-between;
+    background-color: #1A1A1A;
+}
+.title-part > div{
+    display: flex;
+}
+.title-part > p{
+    height: 60px;
+    width: 176px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.title-part-wb > p{
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    width: 89px;
+    height: 16px;
+    cursor: pointer;
+}
+
+
+hr{
+    border: 1px solid #f9f9f9;
+    
+}
+
+.nav-hr > .star {
+    position: absolute;
+    top: 105px;
+    left: 31.75rem;
+
+}
+
+.nav-hr > .line{
+    position: relative;
+    width: 1440px;
+   
+}
+
+
+
+.navbar {
+    background-color: #1A1A1A;
+    overflow: hidden;
+    width: 1440px;     
+  }
+  
+.navbar a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.325rem;
+    font-weight:bold;
+    line-height: 21.6px;
+    width: 187px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+ 
+
+
+  /* Dropdown styles */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.325rem;
+    font-weight: 400;
+    line-height: 21.6px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    margin: 0;
+    padding: 14px 16px;
+    cursor: pointer;
+    width: 187px;
+    font-weight:bold;
+
+  }
+  
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #1A1A1A;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    align-items: center;
+  }
+  
+  .dropdown-content a {
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 16.42px;
+    float: none;
+    color: rgb(255, 255, 255);
+    background-color: #1A1A1A;
+    padding: 12px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  .dropbtn:hover{
+    text-decoration: underline;
+  }
+
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /* social section  */
+
+
+  .social-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 90%;  
+    height: 42px;
+
+  }
+
+  .social-section > .social-section-one{
+    display: flex;
+    color: #626262;
+    align-items: center;
+    }
+
+    .social-section > .social-section-one> a{
+    margin: 0 .5rem;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+  .social-section > .social-section-two{
+    display: flex;
+    color: #626262;
+    align-items: center;
+  }
+ .social-section-two > a{
+    margin: 0 1rem;
+    cursor: pointer;
+    height: 5.6px;
+    font-size: 15px;
+
+  }
+
+
+
+
+
+  /* Media query for small screen */
+
+
+
+  @media screen and (max-width: 580px) {
+    .title-part > p{
+      height: 60px;
+      width: 176px;
+      font-size: 40px;
+      line-height: 60px;
+      font-weight: 200;
+      font-family: 'Poppins', sans-serif;
+      color: #753939;
+  }
+
+
+  .navbar-toggle {
+    display: flex;
+  }
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px; /* Adjust this to your collapsed height */
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+  }
+ 
+  
+  
+  }
