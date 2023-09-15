@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+
+.container{
+    width: 100%;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    font-family: 'Syne', sans-serif;
+}
+
+.banner-main{
+    width: 90%;
+    background-color: #000000; 
+}
+
+.banner-main > h1:nth-child(1){
+    width: 47.85%;
+    font-weight: 800;
+    font-size: 135px;
+    position: absolute;
+    left:  7.99%;
+    top: 260px;
+    z-index:2 ;
+}
+
+
+.banner-main > h1:nth-child(2){
+    color: transparent;
+    /* border: 2px solid slateblue; */
+    width:49.31%;
+    font-weight: 800;
+    font-size: 135px;
+    position: absolute;
+    left: 29.44%;
+    top: 396px;
+    z-index:2 ;
+}
+
+
+.banner-main > h1:nth-child(3){
+    
+    width: 36.60% ;
+    font-weight: 800;
+    font-size: 135px;
+    position: absolute;
+    left:  12.99%;
+    top: 505px;
+    z-index:2 ;
+}
+
+.banner-main > .star-3 {
+    position: absolute;
+    top: 128px;
+    left: 70.14%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.banner-main > .personimg {
+    position: absolute;
+    top: 133px;
+    left: 62.43%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.banner-main > .rectangle{
+
+    background-color: #F07E15;
+    width: 68.958%;
+    height: 354px;
+    position: absolute;
+    top: 344px;
+    z-index: 0;
+    left: 31.04% ;
+}
+
+
+
+.banner-main > .banner-star{
+    position: absolute;
+    top: 620px;
+    z-index: 1;
+    left: 62.56%;
+}
+
+
+.banner-main > hr{
+    position: absolute;
+    top: 665px;
+    z-index: 1;
+    left: 0%;
+    width: 80%;
+}
+
+
+.banner-btn{
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 3px;
+    position: relative;
+    top: 600px;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width:  800px) and (max-width: 1200px) {
+    .banner-main > .rectangle{
+        background-color: #F07E15;
+        width: 68.958%;
+        height: 354px;
+        position: absolute;
+        top: 344px;
+        z-index: 0;
+        left: 31.04% ;
+    }
+
+
+    
+    
+.banner-main > h1:nth-child(1){
+    width: 47.85%;
+    font-weight: 800;
+    font-size: 135px;
+    position: absolute;
+    left:  10.99%;;
+    top: 260px;
+    z-index:2 ;
+}
+
+
+.banner-main > h1:nth-child(2){
+    color: transparent;
+    /* border: 2px solid slateblue; */
+    width:49.31%;
+    font-weight: 800;
+    font-size: 135px;
+    position: absolute;
+    left: 25.44%;
+    top: 396px;
+    z-index:2 ;
+}
+
+
+.banner-main > h1:nth-child(3){
+    
+    width: 36.60% ;
+    font-weight: 800;
+    font-size: 135px;
+    position: absolute;
+    left:  10.99%;
+    top: 505px;
+    z-index:2 ;
+}
+
+.banner-main > .personimg {
+    position: absolute;
+    top: 133px;
+    left: 45.43%;
+    z-index: 1;
+    overflow: hidden;
+    
+}
+.banner-main > .star-3 {
+    position: absolute;
+    top: 148px;
+    left: 50.14%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.banner-main > hr {  
+      position: absolute;
+    top: 665px;
+    z-index: 1;
+    left: 0%;
+    width: 65%;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 800px) { 
+
+    html{
+        width: 1440px;
+      }
+    .container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        font-family: 'Syne', sans-serif;
+        height: 1082px;
+
+    }
+    
+    .banner-main{
+        width: 1330px;
+        background-color: #000000; 
+    }
+    
+
+    
+.banner-main > h1:nth-child(1){
+    width: 47.85%;
+    font-weight: 800;
+    font-size: 135px;
+    position: relative;
+    left:  20.99%;
+    top: 30%;
+    z-index:2 ;
+}
+
+
+.banner-main > h1:nth-child(2){
+    color: transparent;
+    width:49.31%;
+    font-weight: 800;
+    font-size: 135px;
+    position: relative;
+    left: 35.44%;
+    top: 306px;
+    z-index:2 ;
+}
+
+
+.banner-main > h1:nth-child(3){
+    
+    width: 36.60% ;
+    font-weight: 800;
+    font-size: 135px;
+    position: relative;
+    left:  20.99%;
+    top: 305px;
+    z-index:2 ;
+}
+
+.banner-main > .star-3 {
+    position: relative;
+    top: -1200px;
+    left: 60.14%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.banner-main > .personimg {
+    position: relative;
+    top: -500px;
+    left: 18.43%;
+    z-index: 1;
+    overflow: hidden;
+    height: 1100px;
+}
+
+
+.banner-main > .rectangle{
+
+    background-color: #F07E15;
+    width: 1340px;
+    height: 584px;
+    position: relative;
+    top: -1324px;
+    left: 0;
+    z-index: 0;
+}
+
+
+.banner-main > .banner-star{
+    position: absolute;
+    top: 1117px;
+    z-index: 1;
+    left: 62.56%;
+}
+
+/* 
+.banner-main > .banner-line{
+    position: absolute;
+    top: 1165px;
+    z-index: 1;
+    left: 0%;
+} */
+
+
+.banner-btn{
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 3px;
+    position: relative;
+    top: -1230px;
+    font-size: 4rem;
+    margin: 0 3rem;
+    cursor: pointer;
+
+}
+
+.btn-arrow{
+    height: 2rem;
+}
+
+.banner-main > hr {
+        position: relative;
+        top: -670px;
+        z-index: 1;
+        width: 100%;
+    }
+}

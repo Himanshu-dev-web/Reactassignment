@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.products-container{
+    background-color: white;
+    height: 100vh;
+    width: 100%;  
+    color: rgb(0, 0, 0);
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.top-div{
+    width: 100%;
+    display: flex;
+
+}
+
+.top-div > .top-div-title{
+    width: 50vw;
+    padding: 0 4.5rem;
+}
+
+.top-div > .top-div-title > h2{
+    font-family: 'Syne', sans-serif;
+    height: 151px;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 108px;
+}
+.top-div > .top-div-title > hr{
+    border: 1px solid rgb(0, 0, 0);
+    width: 648px;
+}
+.top-div > .top-div-arrow{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.top-div > .top-div-arrow > button {
+    margin: 0 .5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.top-div > .top-div-title > .Prodstar{
+    position: relative;
+    bottom: 10.5%;
+    left: -2%;height: 2.5rem;
+}
+
+
+
+
+.bottom-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.bottom-div > .categories{
+    width: 10%;
+    padding: 0 4.5rem;
+}
+.bottom-div > .Products-list{
+    width: 70%;
+}
+
+.bottom-div > .categories > ul > li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1rem 0;
+}   
+
+.bottom-div > .categories > p{
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    height: 31px;
+}
+
+.bottom-div > .Products-list{
+    padding: 4rem 0;
+} 
+
+
+
+.card-container {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    white-space: nowrap;
+    padding: 0 3rem;
+  }
+  
+
+  .card {
+    width: 310px; /* Adjust the card width as needed */
+    height: 322px; /* Adjust the card height as needed */
+    margin-right: 20px; /* Adjust the margin between cards */
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Style for hiding scrollbar in Firefox */
+  .card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card  > .card-btn{
+    position: relative;
+    top: 3%;
+    left: 88%;
+    cursor: pointer;
+    word-wrap: break-word;
+
+  }
+
+  .card > .prod-img{
+    /* width: 320px; 
+    height: 322px; 
+    border: none;
+    padding: 10px;
+    position:relative;
+    top: -1rem;
+    left: -3.5rem; */
+    width: 80%;
+    height: 100%;
+  }
+  
+
+
+  .card-outer > p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+        color: #16161580;
+    text-wrap: wrap;
+    padding: .2rem .5rem;
+    font-size: 14px;
+
+  }
+  .card-outer > p:nth-child(2){
+    font-family: 'Syne', sans-serif;
+    text-wrap: wrap;
+    color: #000000;
+    padding: .2rem .6rem;
+  }
+  .card-outer > p:nth-child(4){
+    color: #000000;
+    padding: .1rem .5rem;
+    font-weight:lighter;
+  }
+
+
+  .bottom-div > .top-div-arrow{
+    display: none;
+  }
+
+
+  
+  .categories-mobile{
+    display: none;
+  }
+
+@media screen and (max-width: 1300px) {
+
+    .products-container{
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        width: 100%;  
+        color: rgb(0, 0, 0);
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+ .products-container > .top-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
+    
+.top-div > .top-div-arrow{
+        display: none;
+}
+
+    
+.top-div > .top-div-title{
+        width: 100%;
+    }
+    
+    .top-div > .top-div-title > h2{
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+     font-size: 70px; 
+    text-align: left;
+    }
+    .top-div > .top-div-title > hr{
+        border: 1px solid rgb(0, 0, 0);
+        width: 90%;
+        
+    }
+    .top-div > .top-div-title > .Prodstar{
+        position: relative;
+        bottom: 15.5%;
+        left: -1%;
+        height: 4rem;
+    }
+} 
+
+
+
+@media screen and (max-width: 800px) {
+
+    
+.products-container{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;  
+    color: rgb(0, 0, 0);
+    /* padding: 4rem 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.bottom-div  {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-div > .categories{
+    width: 10%;
+    padding: 0 4.5rem;
+    display: none;
+}
+.bottom-div > .Products-list{
+    width: 100%;
+}
+
+
+
+.card {
+    width: 50rem; /* Adjust the card width as needed */
+    height: 42rem; /* Adjust the card height as needed */
+    margin-right: 20px; /* Adjust the margin between cards */
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Style for hiding scrollbar in Firefox */
+  .card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card  > .card-btn{
+    position: relative;
+    top: 2%;
+    left: 91%;
+    cursor: pointer;
+    word-wrap: break-word;
+    height: 5rem;
+}
+
+  .card > .prod-img{
+    /* width: 320px; 
+    height: 322px; 
+    border: none;
+    padding: 10px;
+    position:relative;
+    top: -1rem;
+    left: -3.5rem; */
+    width: 80%;
+    height: 100%;
+  }
+
+
+
+  
+  .card-outer > p:nth-child(3){
+    font-family: 'Work Sans', sans-serif;
+        color: #16161580;
+    text-wrap: wrap;
+    padding: .2rem .5rem;
+    font-size: 2.8rem;
+  }
+  .card-outer > p:nth-child(2){
+    font-family: 'Syne', sans-serif;
+    text-wrap: wrap;
+    color: #000000;
+    padding: .2rem .6rem;
+    font-size: 3rem;
+  }
+  .card-outer > p:nth-child(4){
+    color: #000000;
+    padding: .1rem .5rem;
+    font-weight:lighter;
+    font-size: 3rem;
+
+  }
+
+  .bottom-div > .top-div-arrow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+  }
+
+
+  .bottom-div > .top-div-arrow > button {
+    margin: 0 .5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5rem;
+}
+
+.l-arr, .r-arr{
+    height: 2rem;
+}
+
+.categories-mobile {
+    display: flex;
+  }
+
+  .categories-mobile > ul > li {
+    list-style: none;   
+    font-size: 2rem; 
+    padding: 0 2rem;
+    cursor: pointer;
+  }
+
+  .categories-mobile > ul{
+    display: flex;
+  }
+
+  .categories-mobile > p{
+    font-family: 'Syne', sans-serif;
+    font-size: 2.1rem; 
+    padding: 0 2rem;
+  }
+
+
+}
