@@ -2,7 +2,9 @@
 import Fresh from  "/asset/fresh.png";
 import Twoktwo from  "/asset/2022.png";
 import Look from  "/asset/look.png";
-import Person from  "/asset/jessica-radanavong-IchPBHFD0pw-unsplash.svg";
+// import Person from  "/asset/jessica-radanavong-IchPBHFD0pw-unsplash.svg";
+import Person from  "/asset/Person.png";
+
 import Star3 from  "/asset/Star 3.svg";
 import Star4 from  "/asset/Star 4.svg";
 import Btnarrow from  "/asset/btnupperarrow.svg";
