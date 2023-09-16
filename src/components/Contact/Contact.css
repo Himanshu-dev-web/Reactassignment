@@ -3,7 +3,7 @@
 
 .contact-container{
     height: 520px;
-    border: 2px solid #c97f7f;
+    /* border: 2px solid #c97f7f; */
     background-image: url("/asset/contactimg.png");
     margin-top: 4rem;
     display: flex;
