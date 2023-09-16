@@ -81,7 +81,6 @@ const Navbar = () => {
     <div className='nav-hr'>
       <hr />
       <img className='star' src={Star1} alt="" />
-      
     </div>
 
      <div className="navbar">

@@ -204,8 +204,10 @@
     }
     
     .banner-main{
-        width: 1440px;
+        width: 1440px;   
+
         background-color: #000000; 
+        height: 1100px;
     }
     
 

@@ -8,7 +8,6 @@ const Banner = () => {
     <>
         <div id="about" className='container'>
             <div className='banner-main'>
-                {/* <h1>Fresh</h1> */}
                 <h1><span><img src={Fresh} alt="" /></span></h1>
                 <h1><span><img src={Twoktwo} alt="" /></span></h1>
                 <h1><span><img src={Look} alt="" /></span></h1>
