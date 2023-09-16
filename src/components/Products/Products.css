@@ -177,7 +177,7 @@
     .products-container{
         background-color: rgb(255, 255, 255);
         height: 100vh;
-        width: 100%;  
+        /* width: 100%;   */
         color: rgb(0, 0, 0);
         
         display: flex;
